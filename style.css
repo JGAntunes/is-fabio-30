@@ -11,6 +11,22 @@ p{
   font-size: xx-large;
 }
 
+img{
+  width: 600px
+}
+
+@media (min-width: 800px) {
+  img{
+    width: 800px
+  }
+}
+
+@media (max-width: 600px) {
+  img{
+    width: 300px
+  }
+}
+
 #response{
   text-transform: uppercase;
 }
