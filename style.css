@@ -1,0 +1,52 @@
+
+h1{
+  font-size: 6em;
+}
+
+h2{
+  font-size: 4em;
+}
+
+p{
+  font-size: xx-large;
+}
+
+#response{
+  text-transform: uppercase;
+}
+
+body{
+  font-family: 'Amatic SC', cursive;
+	text-align: center;
+}
+
+/* Clock stuff */
+#clockdiv{
+	display: inline-block;
+	font-weight: bold;
+	text-align: center;
+	font-size: 60px;
+}
+
+#clockdiv > div{
+	display: inline-block;
+	padding: 15px;
+}
+
+#clockdiv > .flip-clock{
+	color: #fff;
+	border-radius: 3px;
+	background: #FD6C6C;
+}
+
+#clockdiv .flip-clock > span{
+	padding: 15px;
+	border-radius: 3px;
+	background: rgba(54, 154, 136, 0.95);
+	display: inline-block;
+}
+
+.smalltext{
+	padding-top: 5px;
+	font-size: 30px;
+}
